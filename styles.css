@@ -1,6 +1,10 @@
 /* img {
-    float: right;
-} */
+    width: 50%;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+}   */
 
 .left_text {
     width: 50%;
@@ -34,4 +38,33 @@ h1 {
 }
 .float {
     float: right;
+}
+
+.spooky {
+    color:rgb(226, 9, 49);
+}
+
+.column {
+    width: 400px;
+    float:left;
+    color:white;
+}
+
+.column_right {
+    width: 400px;
+    float:right;
+    color:white;
+}
+
+.centered_image {
+    margin: auto;
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+body {
+    background-image: url("img/night_background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
