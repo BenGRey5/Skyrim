@@ -15,8 +15,10 @@
 }
 
 p {
+    width: 65%;
     font-size: x-large;
     color: white;
+    margin: auto;
 }
 
 body {
@@ -24,7 +26,8 @@ body {
 }
 
 h1 {
-    color: rgb(90, 84, 84);
+    color: rgb(176, 172, 172);
+    font-size: 65px;
 }
 
 .box1 {
@@ -42,12 +45,14 @@ h1 {
 
 .spooky {
     color:rgb(226, 9, 49);
+    font-family: cursive;
 }
 
 .column {
     width: 400px;
     float:left;
     color:white;
+    margin: auto;
 }
 
 .column_right {
@@ -67,4 +72,26 @@ body {
     background-image: url("img/night_background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.header {
+    background-image: url(img/blood-drip.jpeg);
+    height: 180px;
+    border-top: 50px solid black;
+    border-bottom: 50px solid black;
+}
+
+ul {
+    font-size: xx-large;
+}
+
+.spooky2 {
+    color:rgb(226, 9, 49);
+    font-family: cursive;
+    font-size: xx-large;
 }
